@@ -5,7 +5,7 @@ variable "num_proxies" {
 
 variable "region" {
   type    = string
-  default = "eu-west-2"
+  default = "us-west-2"
 }
 
 variable "profile" {
