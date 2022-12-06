@@ -1,6 +1,6 @@
 FROM amazon/aws-lambda-python:latest
 
-RUN yum -y install unzip awscli git
+RUN yum -y install unzip awscli git vim
 
 RUN version=1.3.6 && \
     mkdir -p /usr/local/src/ &&  \
